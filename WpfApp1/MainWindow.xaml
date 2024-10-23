@@ -11,16 +11,16 @@
 
 
         <StackPanel Orientation="Vertical" Grid.Row="0">
-            <TextBlock Text="Размер массива (N):"/>
+            <TextBlock Text="Размер массива:"/>
             <TextBox x:Name="SizeTextBox" Margin="0,5,0,10"/>
 
-            <TextBlock Text="Минимальное значение диапазона:"/>
+            <TextBlock Text="Минимальное число массива:"/>
             <TextBox x:Name="MinTextBox" Margin="0,5,0,10"/>
 
-            <TextBlock Text="Максимальное значение диапазона:"/>
+            <TextBlock Text="Максимальное число массива:"/>
             <TextBox x:Name="MaxTextBox" Margin="0,5,0,10"/>
 
-            <Button Content="Сгенерировать и отсортировать массив" Click="GenerateAndSortArray_Click" Width="250" Height="30"/>
+            <Button Content="Сгенерировать и отсортировать" Click="GenerateAndSortArray_Click" Width="250" Height="30"/>
         </StackPanel>
 
        
