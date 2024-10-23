@@ -2,12 +2,15 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="http://schemas.microsoft.com/winfx/2006/xaml/composite-font"
-        Title="Array Sorter" Height="350" Width="525">
+        Title="Пр22-102, Комаров Влад, 3 вариант" Height="350" Width="525">
+    
     <Grid Margin="10">
+      
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+       
 
 
         <StackPanel Orientation="Vertical" Grid.Row="0">
